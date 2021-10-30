@@ -89,7 +89,7 @@ RootViewController* _viewController = nullptr;
     return _viewController;
 }
 
-- (void)appStart {
+- (void) appStart {
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     app->start();
 }

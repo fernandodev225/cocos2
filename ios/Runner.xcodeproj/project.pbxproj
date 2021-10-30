@@ -10,12 +10,6 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		67320882272C1AE600F4B796 /* CocosDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67320881272C1AE600F4B796 /* CocosDelegate.cpp */; };
-		67320889272C3DF200F4B796 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 67320883272C3DEC00F4B796 /* project.json */; };
-		6732088A272C3DF200F4B796 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 67320884272C3DEC00F4B796 /* jsb-adapter */; };
-		6732088B272C3DF200F4B796 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 67320885272C3DF100F4B796 /* res */; };
-		6732088C272C3DF200F4B796 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 67320886272C3DF100F4B796 /* main.js */; };
-		6732088D272C3DF200F4B796 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 67320887272C3DF200F4B796 /* src */; };
-		6732088E272C3DF200F4B796 /* subpackages in Resources */ = {isa = PBXBuildFile; fileRef = 67320888272C3DF200F4B796 /* subpackages */; };
 		67659126272154680013E9C0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67659125272154680013E9C0 /* CoreMedia.framework */; };
 		67659128272154700013E9C0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67659127272154700013E9C0 /* AVKit.framework */; };
 		6765912A2721547D0013E9C0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676591292721547D0013E9C0 /* WebKit.framework */; };
@@ -45,6 +39,12 @@
 		6765916027215C5A0013E9C0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6765915F27215C5A0013E9C0 /* libsqlite3.tbd */; };
 		6765916227215C620013E9C0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6765916127215C620013E9C0 /* libz.tbd */; };
 		6765916727215E470013E9C0 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6765916627215E470013E9C0 /* Classes */; };
+		679D4FFF272D56580055737B /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FF9272D56570055737B /* jsb-adapter */; };
+		679D5000272D56580055737B /* res in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FFA272D56570055737B /* res */; };
+		679D5001272D56580055737B /* src in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FFB272D56580055737B /* src */; };
+		679D5002272D56580055737B /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FFC272D56580055737B /* main.js */; };
+		679D5003272D56580055737B /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FFD272D56580055737B /* project.json */; };
+		679D5004272D56580055737B /* subpackages in Resources */ = {isa = PBXBuildFile; fileRef = 679D4FFE272D56580055737B /* subpackages */; };
 		67BC7A5F272053BA0041035D /* CustomObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67BC7A5E272053BA0041035D /* CustomObject.mm */; };
 		67D525A827265D5D009FA92D /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D525A727265D5C009FA92D /* AppDelegate.cpp */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -95,12 +95,6 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		67320881272C1AE600F4B796 /* CocosDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CocosDelegate.cpp; path = Classes/CocosDelegate.cpp; sourceTree = "<group>"; };
-		67320883272C3DEC00F4B796 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = "../../cc3/build/jsb-link/project.json"; sourceTree = "<group>"; };
-		67320884272C3DEC00F4B796 /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "jsb-adapter"; path = "../../cc3/build/jsb-link/jsb-adapter"; sourceTree = "<group>"; };
-		67320885272C3DF100F4B796 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
-		67320886272C3DF100F4B796 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = "../../cc3/build/jsb-link/main.js"; sourceTree = "<group>"; };
-		67320887272C3DF200F4B796 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../cc3/build/jsb-link/src"; sourceTree = "<group>"; };
-		67320888272C3DF200F4B796 /* subpackages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = subpackages; path = "../../cc3/build/jsb-link/subpackages"; sourceTree = "<group>"; };
 		67428663272048EC00B52681 /* libcocos2d iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428664272048EC00B52681 /* libcocos2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67659125272154680013E9C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -137,12 +131,13 @@
 		6765916627215E470013E9C0 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		678DA872272051D70014B826 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<absolute>"; };
 		678DA87E2720524B0014B826 /* CustomObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		679D4FF9272D56570055737B /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "jsb-adapter"; path = "../../helloworld1/build/jsb-link/jsb-adapter"; sourceTree = "<group>"; };
+		679D4FFA272D56570055737B /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = "../../helloworld1/build/jsb-link/res"; sourceTree = "<group>"; };
+		679D4FFB272D56580055737B /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../helloworld1/build/jsb-link/src"; sourceTree = "<group>"; };
+		679D4FFC272D56580055737B /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = "../../helloworld1/build/jsb-link/main.js"; sourceTree = "<group>"; };
+		679D4FFD272D56580055737B /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = "../../helloworld1/build/jsb-link/project.json"; sourceTree = "<group>"; };
+		679D4FFE272D56580055737B /* subpackages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = subpackages; path = "../../helloworld1/build/jsb-link/subpackages"; sourceTree = "<group>"; };
 		67BC7A5E272053BA0041035D /* CustomObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomObject.mm; sourceTree = "<group>"; };
-		67BD23E927240E2A001C2A47 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
-		67BD23EB27240E2A001C2A47 /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jsb-adapter"; sourceTree = "<group>"; };
-		67BD23EC27240E2A001C2A47 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		67BD23ED27240E2A001C2A47 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
-		67BD23EE27240E2A001C2A47 /* subpackages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = subpackages; sourceTree = "<group>"; };
 		67D525A727265D5C009FA92D /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -248,19 +243,14 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				67320884272C3DEC00F4B796 /* jsb-adapter */,
-				67320886272C3DF100F4B796 /* main.js */,
-				67320883272C3DEC00F4B796 /* project.json */,
-				67320885272C3DF100F4B796 /* res */,
-				67320887272C3DF200F4B796 /* src */,
-				67320888272C3DF200F4B796 /* subpackages */,
+				679D4FF9272D56570055737B /* jsb-adapter */,
+				679D4FFC272D56580055737B /* main.js */,
+				679D4FFD272D56580055737B /* project.json */,
+				679D4FFA272D56570055737B /* res */,
+				679D4FFB272D56580055737B /* src */,
+				679D4FFE272D56580055737B /* subpackages */,
 				67320881272C1AE600F4B796 /* CocosDelegate.cpp */,
 				67D525A727265D5C009FA92D /* AppDelegate.cpp */,
-				67BD23EB27240E2A001C2A47 /* jsb-adapter */,
-				67BD23EC27240E2A001C2A47 /* main.js */,
-				67BD23E927240E2A001C2A47 /* project.json */,
-				67BD23ED27240E2A001C2A47 /* src */,
-				67BD23EE27240E2A001C2A47 /* subpackages */,
 				6765916627215E470013E9C0 /* Classes */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
@@ -387,12 +377,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67320889272C3DF200F4B796 /* project.json in Resources */,
-				6732088A272C3DF200F4B796 /* jsb-adapter in Resources */,
-				6732088B272C3DF200F4B796 /* res in Resources */,
-				6732088C272C3DF200F4B796 /* main.js in Resources */,
-				6732088D272C3DF200F4B796 /* src in Resources */,
-				6732088E272C3DF200F4B796 /* subpackages in Resources */,
+				679D4FFF272D56580055737B /* jsb-adapter in Resources */,
+				679D5000272D56580055737B /* res in Resources */,
+				679D5001272D56580055737B /* src in Resources */,
+				679D5002272D56580055737B /* main.js in Resources */,
+				679D5003272D56580055737B /* project.json in Resources */,
+				679D5004272D56580055737B /* subpackages in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				6765916727215E470013E9C0 /* Classes in Resources */,
