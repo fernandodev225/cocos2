@@ -31,7 +31,15 @@
 {
 }
 
-- (void) getGameToken;
+- (RootViewController*) getController;
+
+- (void) appStart;
+
++ (NSString *) getGameId;
+
++ (NSString *) getGameToken;
+
++ (void) closeCocos2dScreen;
 
 @property(nonatomic, readonly) RootViewController* viewController;
 

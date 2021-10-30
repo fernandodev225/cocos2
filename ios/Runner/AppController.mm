@@ -38,12 +38,13 @@ using namespace cocos2d;
 @implementation AppController
 
 Application* app = nullptr;
+RootViewController* _viewController = nullptr;
 @synthesize window;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (bool)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[SDKWrapper getInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     // Add the view controller's view to the window and display.
     float scale = [[UIScreen mainScreen] scale];
@@ -63,26 +64,34 @@ Application* app = nullptr;
 #else
     _viewController.wantsFullScreenLayout = YES;
 #endif
-    // Set RootViewController to window
-    if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
-    {
-        // warning: addSubView doesn't work on iOS6
-        [window addSubview: _viewController.view];
-    }
-    else
-    {
-        // use this method on ios6
-        [window setRootViewController:_viewController];
-    }
-    
-    [window makeKeyAndVisible];
-    
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
-    
-    //run the cocos2d-x game scene
-    app->start();
-    
+//    // Set RootViewController to window
+//    if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
+//    {
+//        // warning: addSubView doesn't work on iOS6
+//        [window addSubview: _viewController.view];
+//    }
+//    else
+//    {
+//        // use this method on ios6
+//        [window setRootViewController:_viewController];
+//    }
+//
+//    [window makeKeyAndVisible];
+//
+//    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+//
+//    //run the cocos2d-x game scene
+//    app->start();
     return YES;
+}
+
+- (RootViewController*) getController {
+    return _viewController;
+}
+
+- (void)appStart {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    app->start();
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -126,8 +135,17 @@ Application* app = nullptr;
     app = nil;
 }
 
-- (void) getGameToken {
-    NSLog(@"getGameToken Ran");
++ (NSString *) getGameToken {
+    return @"17-92f8869835cc6f9053a704366d539628";
+}
+
++ (NSString *) getGameId {
+    return @"ktf1999";
+}
+
++ (void) closeCocos2dScreen {
+    delete app;
+    app = nil;
 }
 
 #pragma mark -

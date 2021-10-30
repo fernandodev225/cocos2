@@ -27,11 +27,11 @@
 
 #include "cocos2d.h"
 
-#include "cocos/scripting/js-bindings/manual/jsb_module_register.hpp"
-#include "cocos/scripting/js-bindings/manual/jsb_global.h"
-#include "cocos/scripting/js-bindings/jswrapper/SeApi.h"
-#include "cocos/scripting/js-bindings/event/EventDispatcher.h"
-#include "cocos/scripting/js-bindings/manual/jsb_classtype.hpp"
+#include "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/manual/jsb_module_register.hpp"
+#include "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/manual/jsb_global.h"
+#include "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/jswrapper/SeApi.h"
+#include "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/event/EventDispatcher.h"
+#include "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/scripting/js-bindings/manual/jsb_classtype.hpp"
 
 USING_NS_CC;
 

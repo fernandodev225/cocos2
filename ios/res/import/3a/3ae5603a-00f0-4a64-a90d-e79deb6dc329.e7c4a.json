@@ -1,0 +1,1 @@
+{"__type__":"cc.Material","_name":"colorMask_sprite","_effectAsset":{"__uuid__":"f56bFeRwNMc4aKtxV+C7MS"},"_defines":{"USE_TEXTURE":true},"_props":{"color_mask":{"__type__":"cc.Vec4","x":1,"y":1,"z":1}}}

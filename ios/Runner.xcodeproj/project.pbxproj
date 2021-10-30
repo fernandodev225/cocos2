@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		67320882272C1AE600F4B796 /* CocosDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67320881272C1AE600F4B796 /* CocosDelegate.cpp */; };
+		67320889272C3DF200F4B796 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 67320883272C3DEC00F4B796 /* project.json */; };
+		6732088A272C3DF200F4B796 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 67320884272C3DEC00F4B796 /* jsb-adapter */; };
+		6732088B272C3DF200F4B796 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 67320885272C3DF100F4B796 /* res */; };
+		6732088C272C3DF200F4B796 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 67320886272C3DF100F4B796 /* main.js */; };
+		6732088D272C3DF200F4B796 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 67320887272C3DF200F4B796 /* src */; };
+		6732088E272C3DF200F4B796 /* subpackages in Resources */ = {isa = PBXBuildFile; fileRef = 67320888272C3DF200F4B796 /* subpackages */; };
 		67659126272154680013E9C0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67659125272154680013E9C0 /* CoreMedia.framework */; };
 		67659128272154700013E9C0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67659127272154700013E9C0 /* AVKit.framework */; };
 		6765912A2721547D0013E9C0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676591292721547D0013E9C0 /* WebKit.framework */; };
@@ -39,12 +46,7 @@
 		6765916227215C620013E9C0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6765916127215C620013E9C0 /* libz.tbd */; };
 		6765916727215E470013E9C0 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6765916627215E470013E9C0 /* Classes */; };
 		67BC7A5F272053BA0041035D /* CustomObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67BC7A5E272053BA0041035D /* CustomObject.mm */; };
-		67BD23F027240E2C001C2A47 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23E927240E2A001C2A47 /* project.json */; };
-		67BD23F127240E2C001C2A47 /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23EB27240E2A001C2A47 /* jsb-adapter */; };
-		67BD23F227240E2C001C2A47 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23EC27240E2A001C2A47 /* main.js */; };
-		67BD23F327240E2C001C2A47 /* src in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23ED27240E2A001C2A47 /* src */; };
-		67BD23F427240E2C001C2A47 /* subpackages in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23EE27240E2A001C2A47 /* subpackages */; };
-		67BD23F527240E2C001C2A47 /* frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 67BD23EF27240E2C001C2A47 /* frameworks */; };
+		67D525A827265D5D009FA92D /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D525A727265D5C009FA92D /* AppDelegate.cpp */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -92,6 +94,13 @@
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		67320881272C1AE600F4B796 /* CocosDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CocosDelegate.cpp; path = Classes/CocosDelegate.cpp; sourceTree = "<group>"; };
+		67320883272C3DEC00F4B796 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = "../../cc3/build/jsb-link/project.json"; sourceTree = "<group>"; };
+		67320884272C3DEC00F4B796 /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "jsb-adapter"; path = "../../cc3/build/jsb-link/jsb-adapter"; sourceTree = "<group>"; };
+		67320885272C3DF100F4B796 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		67320886272C3DF100F4B796 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = "../../cc3/build/jsb-link/main.js"; sourceTree = "<group>"; };
+		67320887272C3DF200F4B796 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = "../../cc3/build/jsb-link/src"; sourceTree = "<group>"; };
+		67320888272C3DF200F4B796 /* subpackages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = subpackages; path = "../../cc3/build/jsb-link/subpackages"; sourceTree = "<group>"; };
 		67428663272048EC00B52681 /* libcocos2d iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67428664272048EC00B52681 /* libcocos2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libcocos2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67659125272154680013E9C0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -134,7 +143,7 @@
 		67BD23EC27240E2A001C2A47 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		67BD23ED27240E2A001C2A47 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		67BD23EE27240E2A001C2A47 /* subpackages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = subpackages; sourceTree = "<group>"; };
-		67BD23EF27240E2C001C2A47 /* frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = frameworks; sourceTree = "<group>"; };
+		67D525A727265D5C009FA92D /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -239,7 +248,14 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
-				67BD23EF27240E2C001C2A47 /* frameworks */,
+				67320884272C3DEC00F4B796 /* jsb-adapter */,
+				67320886272C3DF100F4B796 /* main.js */,
+				67320883272C3DEC00F4B796 /* project.json */,
+				67320885272C3DF100F4B796 /* res */,
+				67320887272C3DF200F4B796 /* src */,
+				67320888272C3DF200F4B796 /* subpackages */,
+				67320881272C1AE600F4B796 /* CocosDelegate.cpp */,
+				67D525A727265D5C009FA92D /* AppDelegate.cpp */,
 				67BD23EB27240E2A001C2A47 /* jsb-adapter */,
 				67BD23EC27240E2A001C2A47 /* main.js */,
 				67BD23E927240E2A001C2A47 /* project.json */,
@@ -371,12 +387,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67BD23F027240E2C001C2A47 /* project.json in Resources */,
-				67BD23F127240E2C001C2A47 /* jsb-adapter in Resources */,
-				67BD23F227240E2C001C2A47 /* main.js in Resources */,
-				67BD23F327240E2C001C2A47 /* src in Resources */,
-				67BD23F427240E2C001C2A47 /* subpackages in Resources */,
-				67BD23F527240E2C001C2A47 /* frameworks in Resources */,
+				67320889272C3DF200F4B796 /* project.json in Resources */,
+				6732088A272C3DF200F4B796 /* jsb-adapter in Resources */,
+				6732088B272C3DF200F4B796 /* res in Resources */,
+				6732088C272C3DF200F4B796 /* main.js in Resources */,
+				6732088D272C3DF200F4B796 /* src in Resources */,
+				6732088E272C3DF200F4B796 /* subpackages in Resources */,
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				6765916727215E470013E9C0 /* Classes in Resources */,
@@ -423,6 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67320882272C1AE600F4B796 /* CocosDelegate.cpp in Sources */,
+				67D525A827265D5D009FA92D /* AppDelegate.cpp in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				6765915827215A070013E9C0 /* RootViewController.mm in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
@@ -503,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -517,7 +535,10 @@
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = 36T6JGKXH5;
 				ENABLE_BITCODE = NO;
@@ -525,7 +546,7 @@
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/",
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/base/",
 					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/proj.ios_mac/ios/",
-					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/Classes",
+					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/classes",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -636,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -653,7 +674,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = Q9362U8553;
@@ -662,7 +686,7 @@
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/",
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/base/",
 					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/proj.ios_mac/ios/",
-					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/Classes",
+					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/classes",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,10 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/libs";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocos.bayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = cocos_app_dev_1;
@@ -698,7 +719,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -708,7 +732,7 @@
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/",
 					"/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/base/",
 					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/proj.ios_mac/ios/",
-					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/Classes",
+					"/Users/devbay/Desktop/cc3/build/jsb-link/frameworks/runtime-src/classes",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -716,10 +740,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "/Applications/CocosCreator.app/Contents/Resources/cocos2d-x/external/ios/libs";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"$(inherited)",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cocos.bayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = cocos_app_release;
