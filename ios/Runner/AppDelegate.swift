@@ -11,7 +11,7 @@ import Flutter
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        
+        window?.rootViewController
         rootViewController = window?.rootViewController as! FlutterViewController
         let channel = FlutterMethodChannel(name: "channel",
                                            binaryMessenger: rootViewController!.binaryMessenger)
@@ -35,10 +35,10 @@ import Flutter
             self?.window.makeKeyAndVisible()
             self?.appController.appStart()
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-                self?.window.rootViewController = self?.rootViewController
-                self?.window.makeKeyAndVisible()
-            }
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+//                self?.window.rootViewController = self?.rootViewController
+//                self?.window.makeKeyAndVisible()
+//            }
         })
         
         GeneratedPluginRegistrant.register(with: self)

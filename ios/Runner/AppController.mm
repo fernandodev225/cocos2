@@ -39,12 +39,15 @@ using namespace cocos2d;
 
 Application* app = nullptr;
 RootViewController* _viewController = nullptr;
+UIViewController* _flutterRootViewController = nullptr;
+AppController* _instance = nullptr;
 @synthesize window;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (bool)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _instance = self;
     [[SDKWrapper getInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     // Add the view controller's view to the window and display.
     float scale = [[UIScreen mainScreen] scale];
@@ -146,6 +149,8 @@ RootViewController* _viewController = nullptr;
 + (void) closeCocos2dScreen {
     delete app;
     app = nil;
+    [_instance.window setRootViewController:_flutterRootViewController];
+    [_instance.window makeKeyAndVisible];
 }
 
 #pragma mark -
