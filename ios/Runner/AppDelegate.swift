@@ -13,6 +13,7 @@ import Flutter
     ) -> Bool {
         window?.rootViewController
         rootViewController = window?.rootViewController as! FlutterViewController
+        appController
         let channel = FlutterMethodChannel(name: "channel",
                                            binaryMessenger: rootViewController!.binaryMessenger)
         channel.setMethodCallHandler({
@@ -35,10 +36,10 @@ import Flutter
             self?.window.makeKeyAndVisible()
             self?.appController.appStart()
             
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-//                self?.window.rootViewController = self?.rootViewController
-//                self?.window.makeKeyAndVisible()
-//            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
+                self?.window.rootViewController = self?.rootViewController
+                self?.window.makeKeyAndVisible()
+            }
         })
         
         GeneratedPluginRegistrant.register(with: self)
